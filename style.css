@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+
+}
+#headcontainer{
+    background-color: rgb(22, 22, 22);
+    height: 50px;
+    align-items: center;
+    display: flex;
+    padding-right: 30px;
+    box-shadow: 3px 3px 5px rgb(13, 13, 13);
+}
+
+#headercontainer{
+    background-color: rgb(22, 22, 22);
+    height: 50px;
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+h7{
+    font-size: 20px;
+    display: inline;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a :hover{
+     color: #1e90ff;
+}
+
+
+#databox{
+    width: 300px;
+    height: auto;
+    position: absolute; 
+    top: 40%;
+    bottom: 60%;   
+    left: 16%;
+}
+#namecontainer{
+    display: inline;
+    color: white;
+}
+
+#softwarenamecontainer{
+    display: inline;
+    color: white;
+    padding-left: 34px;
+    padding-top: 5px;
+}
+
+#img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 5%;
+    top: 33%;
+}
+
+#namelogo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -2%;
+}
+
+#contactbox{
+    width: 600px;
+    height: 255px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    padding-left: 25px;
+}
+#contact{
+    text-decoration: underline 2px dodgerblue;
+}
+
+
+@media only screen and ( max-width: 600px ){
+    #img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100%;
+}
+    
+}
